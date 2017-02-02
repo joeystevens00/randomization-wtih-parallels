@@ -1,4 +1,7 @@
 #!/bin/bash
+# AUTHOR: Joey Stevens
+# Description: Iterates thru every possible permutation of a keyspace using GNU parallel
+
 export length=$1
 export keyspace=$2
 export threads=$3
