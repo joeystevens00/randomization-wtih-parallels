@@ -15,7 +15,7 @@ passwordgen.sh --length=[option] --threads=[option] --sets=[option] --num=[optio
         -h | --help     displays this page
 ```
 Sets - the --sets flag signifies the number of characters that paralell will be given in each data source. When paralell is given multiple data sources it will calculate all combinations therefore this is an expensive task.   
-This is the same as doing parallel echo ::: a b c ::: d e f ::: 1 2 3
+This is the same as doing `parallel echo ::: a b c ::: d e f ::: 1 2 3`
 
 ### iterate-thru-keyspace.sh 
 Iterates thru a given keyspace
