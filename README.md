@@ -1,10 +1,10 @@
 # randomization-wtih-parallels
 scripts that use GNU parallel for randomization 
 
-## passwordGen
+### passwordGen
 Generates random characters 
 
-### Docs
+#### Docs
 ```
 passwordgen.sh --length=[option] --threads=[option] --sets=[option] --num=[option]
         -l |--length    the length of the password to generate (default 7)
@@ -17,10 +17,10 @@ passwordgen.sh --length=[option] --threads=[option] --sets=[option] --num=[optio
 Sets - the --sets flag signifies the number of characters that paralell will be given in each data source. When paralell is given multiple data sources it will calculate all combinations therefore this is an expensive task.   
 This is the same as doing parallel echo ::: a b c ::: d e f ::: 1 2 3
 
-## iterate-thru-keyspace.sh 
+### iterate-thru-keyspace.sh 
 Iterates thru a given keyspace
 
-### Docs
+#### Docs
 ```
 iterate-thru-keyspace.sh  [length] [keyspace] [threads]
 Exmaple: iterate-thru-keyspace.sh 5 'combined' 8 
@@ -33,7 +33,7 @@ Exmaple: iterate-thru-keyspace.sh 5 'combined' 8
   ;login: The USENIX Magazine, February 2011:42-47.
 ```
 
-#### License 
+##### License 
 ```
 Copyright
 
