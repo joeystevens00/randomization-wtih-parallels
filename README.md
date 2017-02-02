@@ -27,13 +27,13 @@ Exmaple: iterate-thru-keyspace.sh 5 'combined' 8
          would iterate thru the combined set with a length of 5 and use 8 threads
          keyspace options=upper, lower, number, special, combined, and alphanum
 ```
-#### Legal
+### Legal
 ```
   O. Tange (2011): GNU Parallel - The Command-Line Power Tool,
   ;login: The USENIX Magazine, February 2011:42-47.
 ```
 
-##### License 
+#### License 
 ```
 Copyright
 
